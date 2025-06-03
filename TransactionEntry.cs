@@ -7,11 +7,11 @@ namespace sberbank2beancount
     /// </summary>
     internal class TransactionEntry
     {
-        [Name("ДАТА ОПЕРАЦИИ")]
+        [Name("Дата операции")]
         public string? Date { get; set; }
-        [Name("СУММА В РУБЛЯХ")]
+        [Name("Сумма в валюте счёта")]
         public string? TotalValue { get; set; }
-        [Name("КАТЕГОРИЯ")]
+        [Name("Категория")]
         public string? Category { get; set; }
         [Name("Описание операции")]
         public string? Description { get; set; }
